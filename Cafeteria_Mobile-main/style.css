@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Fnaf';
+    src: url('BROWN\ FOXY\ -\ Personal\ Use\ Only.ttf');}
+
+@font-face {
+    font-family: 'Foxy';
+    src: url('lok.otf');
+}
+
+
+
+
+body{
+    background-image: url(16\ Sem\ Título_20230802113537.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    font-family: 'Fnaf';
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+    letter-spacing: 3px;
+}
+
+.menu{
+     
+    
+    color: #949393;
+    font-family: 'Foxy';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 200px;
+    font-weight: 100;
+    
+    
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-family: 'Foxy';
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(192, 190, 190);
+}
+
+.menu a:hover{
+ 
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+   
+}

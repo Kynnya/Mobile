@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Fnaf';
+    src: url(BROWN\ FOXY\ -\ Personal\ Use\ Only.ttf);
+}
+
+body{
+    background-color: rgb(136, 0, 0);
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Fnaf';
+    font-size: 30px;
+   
+
+}
