@@ -1,0 +1,39 @@
+body{
+    background-color: #000;
+
+}
+
+
+header{
+    font-size: 25px;
+    color: #7b83e9;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.content{
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+
+
+}
+
+
+input{
+    font-size: 20px;
+    background-color: #7b83e9;
+    color: #ffffff;
+    padding: 5px;
+}
+
+input:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgb(71, 58, 255);
+    color: #000;
+    cursor: cell;
+}
